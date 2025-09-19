@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render , HttpResponse
 
-def indexView(request):
-    return(request,'index.html')
+
+
+# def indexView(request):
+#     return(request,'index.html')
